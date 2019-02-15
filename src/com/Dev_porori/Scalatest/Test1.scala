@@ -2,8 +2,8 @@ package com.Dev_porori.Scalatest
 
 object Test1 {
   def main(args: Array[String]): Unit = {
-    var x = 10
-    var y = 1
+    var x = 100
+    var y = 15
     
     // 1. println
     println("1. " + x + "는 " + y + "보다 크다.")
