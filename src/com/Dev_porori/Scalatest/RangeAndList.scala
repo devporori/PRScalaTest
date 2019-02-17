@@ -8,11 +8,11 @@ object RangeAndList {
     
     // until을 이용하면 마지막 숫자를 포함안하는 range를 만듬
     val r2 = 1 until 10
-    println(s"1 until 10 :\n\t $r2")
-    
+    println(s"1 until 10 :\n\t ${r2.toList}")
+      
     // by를 쓰면 숫자를 건너띄는 range를 만듬
     val r3 = 1 until 10 by 5
-    println(s"1 until 10 by 5 :\n\t $r3")
+    println(s"1 until 10 by 5 :\n\t ${r3.toList}")
     
     // toList를 써서 list로 바꿈
     println(s"r1.toList :\n\t ${r1.toList}")
